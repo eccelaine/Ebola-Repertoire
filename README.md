@@ -1,5 +1,3 @@
-Start with an input file of all sequences in a csv with headers "ID, HC, and LC"
-
 # Ebola Repertoire
 This repo contains the clustering code used for the manuscript: Systematic analysis of human antibody response to ebolavirus glycoprotein reveals high prevalence of neutralizing public clonotypes.
 
@@ -20,7 +18,7 @@ This repo contains the clustering code used for the manuscript: Systematic analy
    This script should give you two XXX.dat files as output
    
 6. Run these two XXX.dat files through "4.clustering.py" using the below command: 
-   > python2 Clusteringv2.1b_mod7.py --full-formatted-file=XXX.dat --keys-for-clustering 0 3 4 6 --clustered-formatted-outfile=clustered-XXX.dat,gz --sequence-identity=0.80 --clustering-type=complete
+   > python2 Clusteringv2.1b_mod7.py --full-formatted-file=XXX.dat --keys-for-clustering 0 3 4 6 --clustered-formatted-outfile=clustered-XXX.dat.gz --sequence-identity=0.80 --clustering-type=complete
 
 7. Take the two XXX.dat.gz files, unzip them, and run them through "5.combineHCLCclustering.py". 
    This should give you an output file of 10Xout.csv
