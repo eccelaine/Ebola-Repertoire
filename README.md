@@ -5,7 +5,7 @@ This repo contains the clustering code used for the manuscript: Systematic analy
 1. Start with an input file of all sequences in a csv with headers "ID, HC, LC"
 
 2. First run your input csv through "1.csvtofasta.py"
-   This will convert your csv into a fasta file. 
+   - This will convert your csv into a fasta file. 
    
 3. Taking the fasta files of the heavy and light chain, run it through PyIR (https://github.com/crowelab/PyIR)
    Once you have PyIR working in your shell, use the command as follows
