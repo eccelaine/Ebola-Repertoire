@@ -22,6 +22,7 @@ This repo contains the clustering code used for the manuscript: Systematic analy
 
 7. Take the two XXX.dat.gz files, unzip them, and run them through "5.combineHCLCclustering.py". 
    This should give you an output file of 10Xout.csv
+   If just clustering on the heavy chain sequences (ex: bulk sequencing) run them through "5.combineHConlyclustering.py"
    
 8. Take your 10Xout.csv and run it through "6.sortclusters"
    This should give you an output file of 10Xout_formatted.csv
