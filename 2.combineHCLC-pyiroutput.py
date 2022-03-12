@@ -2,9 +2,9 @@ import argparse
 import gzip
 import json
 
-INPUT_HEAVY = 'DavidHO-COV2-HC.json.gz'
-INPUT_LIGHT = 'DavidHO-COV2-LC.json.gz'
-OUT = 'DAVIDHO-paired.csv'
+INPUT_HEAVY = 'HC.json.gz'
+INPUT_LIGHT = 'LC.json.gz'
+OUT = 'paired.csv'
 RUN = 'x'
 SAMPLE = 'x'
 
